@@ -1,0 +1,116 @@
+create table Projects
+(
+    id             int identity
+        primary key,
+    ProjectName    varchar(255) not null,
+    ProjectOwnerID int          not null,
+    ProjectLeadID  int          not null
+)
+go
+
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'ACP - Coursetune', 1, 3);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'ACP - Migracion a WordPress', 1, 16);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'ARF - Maintenance', 2, 27);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'ARF - Performance Testing', 2, 27);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'AUB - Direct Mail', 3, 33);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'AUB - DCS-Poopnet', 3, 33);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'AUB - LMPBP (Local Marketing Plan Budget Platform)', 3, 33);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'AUB - Swimming Pool', 3, 41);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'BRA - Kepler', 4, 44);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'BRA - Snowflake Data Migration', 4, 51);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'BRA - PM tools modernization implementation', 4, 49);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'BRA - Support Kepler-BSecure', 4, 44);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'DOD - Middle Back Office', 5, 50);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'EPE - Pruebas de Regresion', 6, 56);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'EET - Atlas', 7, 62);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSIL UX', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSX JSI', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSX Pacer Pro', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSX Security Patch', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSX-FSIL Filing Integration', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - NFE JTI', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - Maintenance', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - Security Incident 2021-11 Response Audit', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - Tyler Platform', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS -  Process & Cumplimiento', 9, 68);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Administration & Finance', 9, 72);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Chronos', 9, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Central', 9, 31);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Chronos Mobile', 9, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Cierre de Evaluacion', 9, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Human Resources', 9, 85);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Information Technology', 9, 92);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Talent Acquisition', 9, 90);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV -  Office - Heroku', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Accounts', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Appartments QA', 10, 100);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Office QA', 10, 106);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Retail QA', 10, 111);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Safety Management Mobile App', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Sublease', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Support', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'Pivotal Retirement', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'JMT -  MVP Jammin'' Together', 11, 84);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SCL -  Mobile & Desktop Design', 12, 48);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SCL - Web App Redesign', 12, 9);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SFT - Knowledge Transfer and Documentation', 13, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'TCA - IQ updates and fixes', 15, 41);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SFT - Knowledge Transfer and Documentation-2', 13, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SWR - Online Booking Widget', 14, 126);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'TXL - Traxxall Mobile', 16, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'WLD - Tempo', 17, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'WLD - OLA', 17, 84);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'WLD - Walden Website', 17, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'ACP - Coursetune', 1, 3);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'ACP - Migracion a WordPress', 1, 16);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'ARF - Maintenance', 2, 27);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'ARF - Performance Testing', 2, 27);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'AUB - DCS-Poopnet', 3, 33);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'AUB - Direct Mail', 3, 33);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'AUB - LMPBP (Local Marketing Plan Budget Platform)', 3, 33);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'AUB - Swimming Pool', 3, 41);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'BRA - Kepler', 4, 44);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'BRA - PM tools modernization implementation', 4, 49);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'BRA - Snowflake Data Migration', 4, 51);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'DOD - Middle Back Office', 5, 50);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'BRA - Support Kepler-BSecure', 4, 44);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'EPE - Pruebas de Regresion', 6, 56);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'EET - Atlas', 7, 62);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSIL UX', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSX JSI', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSX Pacer Pro', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSX Security Patch', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - Maintenance', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - FSX-FSIL Filing Integration', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - Security Incident 2021-11 Response Audit', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - NFE JTI', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'FSX - Tyler Platform', 8, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS -  Process & Cumplimiento', 9, 68);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Central', 9, 31);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Administration & Finance', 9, 72);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Chronos', 9, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Chronos Mobile', 9, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Cierre de Evaluacion', 9, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Human Resources', 9, 85);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Information Technology', 9, 92);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IPS - Talent Acquisition', 9, 90);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV -  Office - Heroku', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Appartments QA', 10, 100);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Accounts', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Office QA', 10, 106);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Retail QA', 10, 111);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Safety Management Mobile App', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Sublease', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'Pivotal Retirement', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'IRV - Support', 10, 53);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SCL -  Mobile & Desktop Design', 12, 48);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'JMT -  MVP Jammin'' Together', 11, 84);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SCL - Web App Redesign', 12, 9);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SFT - Knowledge Transfer and Documentation', 13, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SFT - Knowledge Transfer and Documentation-2', 13, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'SWR - Online Booking Widget', 14, 126);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'TCA - IQ updates and fixes', 15, 41);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'TXL - Traxxall Mobile', 16, 67);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'WLD - OLA', 17, 84);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'WLD - Walden Website', 17, 5);
+INSERT INTO [IPS Central].dbo.Projects (ProjectName, ProjectOwnerID, ProjectLeadID) VALUES (N'WLD - Tempo', 17, 5);
